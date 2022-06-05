@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    list-style: none;
+}
+
+@font-face {
+    font-family: airbnb cereal;
+    src: url('AirbnbCerealMedium.ttf');
+    font-style: normal;
+    font-weight: 500;
+}
+
+body{
+    background-color: #1e1e1e ;
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    background: url('circle.svg') no-repeat;
+    background-size: contain;
+    background-position: -212px 317px;
+}

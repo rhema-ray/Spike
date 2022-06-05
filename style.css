@@ -30,6 +30,7 @@ main{
 
 section{
     width: 50vw;
+    height: 100vh;
 }
 
 /* navbar */
@@ -63,16 +64,26 @@ nav .links{
 
 /* Sections one */
 section.one{
-    background: #0B0E10;
-    opacity: 50%;
+    background: hsla(204, 19%, 5%, 0.5);
 }
 
 section.one .info{
     width: fit-content;
     height: fit-content;
-    margin-left: 20%;
+    margin-left: 15%;
     margin-top: 200px;
-    }
+}
 
+section.one .info .text h1{
+    font-size: 60px;
+    font-family: airbnb cereal;
+    color: #FFFFFF;
+}
+
+section.one .info .text h1 span{
+    font-size: 40px;
+    font-family: inter;
+    color: #E8AE18;
+}
 /* section.one *{z-index: 2;} */
 

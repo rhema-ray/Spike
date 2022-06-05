@@ -24,4 +24,10 @@ main{
     background: url('circle.svg') no-repeat;
     background-size: contain;
     background-position: -212px 317px;
+    display: flex;
 }
+
+section{
+    width: 50vw;
+}
+

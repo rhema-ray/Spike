@@ -171,3 +171,25 @@ section.two .img{
 section.two .img img.half-bike{
     height: 450px;
 }
+
+section.two .rating{
+    height: 100px;
+    width: 200px;
+    background-color: #E8AE18;
+    border-radius: 20px;
+    display: flex;
+    place-content: center;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+section.two .rating .stars{
+    margin: 0 auto 7px;
+}
+
+section.two .rating h3{
+    color: #1e1e1e;
+    font-family: inter;
+    font-size: 14px;
+    margin: 0 auto;
+}

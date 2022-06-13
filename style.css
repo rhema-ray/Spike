@@ -148,10 +148,10 @@ height: 220px;
 
 section.one .buttom .news{
     display: flex;
-    height: 27.87px;
-    width: 100%;
+    height: 22.87px;
+    width: 50%;
     justify-content: space-between;
-    margin: auto 0;
+    margin: 17% auto 0;
     position: relative;
     left: -10px;
 }
@@ -181,6 +181,7 @@ section.two .rating{
     place-content: center;
     flex-direction: column;
     margin-left: 50px;
+    margin-top: 16px;
 }
 
 section.two .rating .stars{
@@ -192,4 +193,29 @@ section.two .rating h3{
     font-family: inter;
     font-size: 14px;
     margin: 0 auto;
+}
+
+section.two .specs .info{
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+    margin: auto;
+    margin-left: 10%;
+}
+
+section.two .specs .info .text{
+    text-align: left;
+    color: #fff;
+}
+
+section.two .specs .info .text h3{
+    font-family: inter;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+section.two .specs .info .text h4{
+    font-family: inter;
+    font-weight: 400;
+    font-size: 17px;
 }
